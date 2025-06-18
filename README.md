@@ -48,8 +48,8 @@ Deployed in `/var/www/html/`:
 ## 🚀 Deployment Steps
 
 ### ✅ 1. Infrastructure Provisioning
-- EC2 instance in a public subnet (`LAMP-Server`)
-- Aurora MySQL cluster in a private subnet (`lampdb`)
+- EC2 instance in a public subnet (`Lampstack`)
+- Aurora MySQL cluster in a private subnet (`lamp_app`)
 - Security groups to allow:
   - HTTP (port 80)
   - SSH (port 22)
@@ -101,16 +101,6 @@ Deployed in `/var/www/html/`:
 - 🔄 Aurora is scalable and highly available
 - 📦 Log rotation and streaming via CloudWatch
 - 🚀 Designed for future scaling and SSL support
-
----
-
-## 📌 Future Improvements
-
-- 🔒 Add HTTPS via Let's Encrypt and Certbot
-- 🌐 Register a custom domain via Route 53
-- 💅 UI improvements with Bootstrap
-- 📊 Build CloudWatch dashboards for real-time visualization
-- 🧪 Add automated testing and CI/CD
 
 ---
 
