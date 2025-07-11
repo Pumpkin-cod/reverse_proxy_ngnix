@@ -7,7 +7,7 @@ This project demonstrates how to deploy a secure and observable LAMP (Linux, Apa
 Access the deployed PHP CRUD application:
 
 👉 [http://54.72.80.82/index.php](http://54.72.80.82/index.php)
-![Project Image](app.png)
+![Project Image](image.png)
 ---
 
 ## 📐 Project Architecture
