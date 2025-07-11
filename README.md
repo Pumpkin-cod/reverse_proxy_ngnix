@@ -7,7 +7,7 @@ This project demonstrates how to deploy a secure and observable LAMP (Linux, Apa
 Access the deployed PHP CRUD application:
 
 👉 [http://54.72.80.82/index.php](http://54.72.80.82/index.php)
-![Project Image](images/app.png)
+![Project Image](app.png)
 ---
 
 ## 📐 Project Architecture
@@ -20,7 +20,7 @@ Access the deployed PHP CRUD application:
 - **Logging** → CloudWatch Logs
 - **Alerting** → CloudWatch Alarms + SNS Email Notifications
 
-![Project Image](images/Architectural diagram.png)
+![Project Image](Architectural diagram.png)
 
 
 User Request
@@ -82,7 +82,7 @@ Deployed in `/var/www/html/`:
 ### ✅ CloudWatch Logs
 - Real-time log streaming from:
   - `/var/log/nginx/access.log` → `lamp-nginx-access`
-  ![Project Image](images/image2.png)  
+  ![Project Image](image2.png)  
   - `/var/log/nginx/error.log` → `lamp-nginx-error`
   - `/var/log/httpd/access_log` → `lamp-apache-access`
   - `/var/log/httpd/error_log` → `lamp-apache-error`
@@ -96,7 +96,7 @@ Deployed in `/var/www/html/`:
 | Apache5xxErrors    | 500 errors detected in Apache logs     | SNS Email Alert     |
 
 
-![Project Image](images/dashboard.png)
+![Project Image](dashboard.png)
 ---
 
 ## ✅ Best Practices Followed
