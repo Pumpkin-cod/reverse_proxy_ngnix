@@ -22,7 +22,6 @@ Access the deployed PHP CRUD application:
 
 ![Project Image](Architectural diagram.png)
 
-
 User Request
 ↓
 [ NGINX (port 80) ]
